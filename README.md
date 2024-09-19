@@ -16,3 +16,15 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 
 ## ACT 1
 ![Screen of Act 1](assets/img/actionRepoImages/act1.png)
+
+## ACT 2
+![Screen of Act 2](assets/img/actionRepoImages/act2.png)
+
+## ACT 3
+![Screen of Act 3](assets/img/actionRepoImages/act3.png)
+
+## ACT 4
+![Screen of Act 4](assets/img/actionRepoImages/act4.png)
+
+## ACT 5
+Work in progress
