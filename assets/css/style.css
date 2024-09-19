@@ -435,6 +435,11 @@ h3 {
   margin-bottom: 0;
 }
 
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .card ul li {
   line-height: 200%;
   list-style-type: disc;
