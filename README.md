@@ -1,6 +1,9 @@
 # Personal Portfolio ⚡️ 
 > This repo was cloned from https://github.com/varadbhogayata/varadbhogayata.github.io
 
+## Live View
+**[https://michaeljsxu.github.io/](https://michaeljsxu.github.io/)**
+
 ## ACT 1
 ![Screenshot of Act 1](assets/img/actionRepoImages/act1.png)
 
