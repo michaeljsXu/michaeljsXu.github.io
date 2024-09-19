@@ -1,0 +1,68 @@
+[
+    {
+      "name": "Malaria Detection",
+      "description": "A Pytorch model to detect malaria-infected red blood cells.",
+      "image": "/assets/img/malaria.png",
+      "tools": "Python, Pytorch",
+      "accomplishments": [
+        "Implemented data preprocessing to improve model generalization.",
+        "Achieved 97.2% classification and 91.9% testing accuracy."
+      ],
+      "date": "2022-09-01",
+      "link_label": "View Final Report",
+      "link": "https://drive.google.com/file/d/1QxFxeyhAKGA7-NGEmRA8gIZNMCGRf8e1/view?usp=sharing"
+    },
+    {
+      "name": "Global Information System",
+      "description": "A mapping application made with OpenStreetMap.",
+      "image": "/assets/img/CGIS.png",
+      "tools": "C++, GTK, OpenStreetMap",
+      "accomplishments": [
+        "Enhanced pathfinding performance with advanced pathfinding and preprocessing, achieving 9x speed up.",
+        "Optimized TSP using non-deterministic algorithms, securing 3rd place out of 120 teams."
+      ],
+      "date": "2022-01-01",
+      "link_label": "View Final Presentation",
+      "link": "https://docs.google.com/presentation/d/1ocyK61AN9EySNMyJEv9fRWCcVkU2vll1/edit?usp=sharing&ouid=106868562638170782990&rtpof=true&sd=true"
+    },
+    {
+        "name": "Personal Website",
+        "description": "A personal portfolio.",
+        "image": "/examples/example.png",
+        "tools": "JavaScript, HTMl, CSS",
+        "accomplishments": [
+          "Dynamically loads projects based on date and time.",
+          "Embedded google maps to show places I visited."
+        ],
+        "date": "2024-09-1",
+        "link_label": "View Repo",
+        "link": "https://github.com/michaeljsXu/michaeljsXu.github.io"
+    },
+    {
+        "name": "Computer Graphics",
+        "description": "Fundementals of computer graphics and GPU rendering.",
+        "image": "/assets/img/robot-arm.gif",
+        "tools": "C++, GLSL",
+        "accomplishments": [
+          "Created Blinn-Phong shading model.",
+          "Implemented bounding volume optimization.",
+          "Calculated forward and backwards kinematics."
+        ],
+        "date": "2023-01-1",
+        "link_label": "View Repo",
+        "link": "https://github.com/michaeljsXu/Computer_Graphics_Projects"
+    },
+    {
+        "name": "URL Shortener",
+        "description": "A small application to shorten urls.",
+        "image": "/assets/img/url_shortener.png",
+        "tools": "React, Express, MongoDB",
+        "accomplishments": [
+          "Used Mongo Atlas to store shortened URLs.",
+          "Checks url validity with DNS lookup."
+        ],
+        "date": "2024-09-20",
+        "link_label": "View Repo",
+        "link": "https://github.com/michaeljsXu/url_shorten"
+    }
+  ]
