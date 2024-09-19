@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                   ${project.accomplishments.map(item => `<li>${item}</li>`).join('')}
                 </ul>
                 <div class="card-action">
-                  <a href="${project.report_link}" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey">
+                  <a href="${project.link}" target="_blank" class="btn-floating btn-large waves-effect waves-light blue-grey">
                     <i class="fa fa-external-link"></i>
                   </a>
                 </div>
