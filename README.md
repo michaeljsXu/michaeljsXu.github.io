@@ -1,14 +1,5 @@
 # Personal Portfolio ⚡️ 
-> This repo is a clone of https://github.com/varadbhogayata/varadbhogayata.github.io
-
-### Website Preview
-<p align="center"> 
-  <kbd>
-    <a href="https://michaeljsXu.github.io" target="_blank"><img src="examples/preview.gif">
-  </a>
-  </kbd>
-</p>
-
+> This repo was cloned from https://github.com/varadbhogayata/varadbhogayata.github.io
 
 ## Features 📋
 ⚡️ Fully Responsive\
@@ -22,3 +13,6 @@
 
 ## License 📄
 This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details.
+
+## ACT 1
+![Screen of Act 1](assets/img/actionRepoImages/act1.png)
