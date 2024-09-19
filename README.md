@@ -10,9 +10,13 @@
 
 ## ACT 3
 ![Screen of Act 3](assets/img/actionRepoImages/act3.png)
+![Screen of Act 3 Homepage](assets/img/actionRepoImages/act3_homepage.png)
 
 ## ACT 4
 ![Screen of Act 4](assets/img/actionRepoImages/act4.png)
+![Screen of Act 4 Places](assets/img/actionRepoImages/act4_homepage.png)
 
 ## ACT 5
-![Screen of Act 4](assets/img/actionRepoImages/act5.png)
+![Screen of Act 5](assets/img/actionRepoImages/act5.png)
+![Screen of Act 5 Closed](assets/img/actionRepoImages/act5_projects_closed.png)
+![Screen of Act 5 Opened](assets/img/actionRepoImages/act5_projects_open.png)
