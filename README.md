@@ -6,6 +6,7 @@
 
 ## ACT 2
 ![Screen of Act 2](assets/img/actionRepoImages/act2.png)
+![Screen of Act 2 Homepage](assets/img/actionRepoImages/act2_homepage.png)
 
 ## ACT 3
 ![Screen of Act 3](assets/img/actionRepoImages/act3.png)

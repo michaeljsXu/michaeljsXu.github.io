@@ -28,7 +28,7 @@
     {
         "name": "Personal Website",
         "description": "A personal portfolio.",
-        "image": "/examples/example.png",
+        "image": "/assets/img/actionRepoImages/act2_homepage.png",
         "tools": "JavaScript, HTMl, CSS",
         "accomplishments": [
           "Dynamically loads projects based on date and time.",
