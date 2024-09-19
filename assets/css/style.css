@@ -28,6 +28,12 @@
   right: 0;
 }
 
+#uoft-logo {
+  display:flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .hidden {
   display: none;
 }
@@ -621,6 +627,10 @@ small {
   .card ul li {
     line-height: 150%;
   }
+
+  #uoft-logo {
+    display: none;
+  }
 }
 
 @media (max-width: 992px) {
@@ -689,9 +699,7 @@ small {
     top: initial;
   }
 
-  #uoft-logo {
-    display: none;
-  }
+
 }
 
 @media (max-width: 600px) {
