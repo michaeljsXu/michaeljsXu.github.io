@@ -562,6 +562,39 @@ small {
   color: #4564c9 !important;
 }
 
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* Default for small screens: 3 columns */
+  gap: 10px;  /* Spacing between grid items */
+  padding: 20px;
+}
+
+.image-item img {
+  max-width: 100%;
+  height: 75px;  /* Set a fixed height for all images */
+  object-fit: cover;  /* Ensure the image fills the space while maintaining aspect ratio */
+  display: block;
+}
+
+/* Responsive behavior for larger screens (6 columns) */
+@media screen and (min-width: 1024px) {
+  .image-grid {
+    grid-template-columns: repeat(6, 1fr);  /* 6 columns for larger screens */
+  }
+
+  .image-item img {
+    height: 100px;  /* Set a fixed height for all images */
+  }
+}
+
+/* Style for each image and text container */
+.image-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 /* .teal-text {
   color: #0b5e86 !important;
 } */
@@ -654,6 +687,10 @@ small {
     position: relative;
     right: initial;
     top: initial;
+  }
+
+  #uoft-logo {
+    display: none;
   }
 }
 
