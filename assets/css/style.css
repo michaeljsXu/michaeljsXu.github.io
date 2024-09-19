@@ -28,6 +28,10 @@
   right: 0;
 }
 
+.hidden {
+  display: none;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
 .social {
   margin: 0 auto;

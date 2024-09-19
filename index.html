@@ -35,6 +35,10 @@
     gtag('config', 'UA-126939217-2');
   </script>
 
+  <!-- Projects script-->
+  <script src="projects.js"></script>
+
+
   <!-- Open Graph-->
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
@@ -383,81 +387,11 @@
     <section id="projects" class="section scrollspy">
       <h3 class="page-title white-text light-blue">Projects</h3>
       <div class="container">
-        <div class="row">
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Malaria in Red Blood Cells" src="/assets/img/malaria.png" style="height: 100%; width: 100%"
-                  class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator light-blue-text hoverline">Malaria Detection<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A Pytorch two-stage RCNN/Autoencoder model to detect malaria-infected red blood cells.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> Python, Pytorch</li>
-                  <li>Implemented data preprocessing to improve model generalization.</li>
-                  <li>Achieved 97.2% classification and 91.9% testing accuracy.</li>
-
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="View Final Report"
-                    href="https://drive.google.com/file/d/1QxFxeyhAKGA7-NGEmRA8gIZNMCGRf8e1/view?usp=sharing"
-                    target="_blank" data-position="top" data-tooltip="View Report"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Global Infromation System" src="/assets/img/CGIS.png" style="height: 100%; width: 100%"
-                  class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator light-blue-text hoverline">Global Information System<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A mapping application made with OpenStreetMap.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> C++, GTK, OpenStreetMap, Azure Maps</li>
-                  <li>Enhanced pathfinding performance by implementing bidirectional A* algorithm with landmarks
-                    preprocessing, achieving nine times reduction in execution time compared to baseline Dijkstra’s
-                    algorithm</li>
-                  <li>Optimized the traveling salesman problem using non-deterministic algorithms including
-                    simulated annealing, securing 3rd place out of 120 teams</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Final Presentation"
-                    href="https://docs.google.com/presentation/d/1ocyK61AN9EySNMyJEv9fRWCcVkU2vll1/edit?usp=sharing&ouid=106868562638170782990&rtpof=true&sd=true"
-                    target="_blank" data-position="top" data-tooltip="View "
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="row" id="project-container">
+ 
+        </div>
+        <div class="center-align">
+          <button id="showMoreBtn" class="btn waves-effect blue">Show More Projects</button>
         </div>
       </div>
     </section>
